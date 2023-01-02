@@ -1,5 +1,17 @@
+.header {
+    height: 200px;
+    /* background-image: url("nature.jpg"); */
+    /* background-image: url("../travell.jpg"); */
+    background-image: url("../images/tower.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-blend-mode: multiply;
+}
+
 h3 {
-    color: magenta
+    color: magenta;
+    text-decoration: underline wavy green;
 }
 
 p {
@@ -9,4 +21,9 @@ p {
 .page-title {
     font-weight: bold;
     font-family: sans-serif;
+}
+
+ul li {
+    color: purple;
+    display: inline;
 }
