@@ -27,3 +27,8 @@ ul li {
     color: purple;
     display: inline;
 }
+
+.blog {
+    background-color: lightcyan;
+    box-shadow: 10px 10px 10px gray;
+}
