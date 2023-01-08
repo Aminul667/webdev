@@ -22,6 +22,32 @@
         a:visited{
             color: red;
         }
+
+        li:first-child{
+            color: red;
+        }
+
+        li:last-child{
+            color: greenyellow;
+        }
+
+        li:nth-child(2n){
+            color: royalblue;
+        }
+
+        li:nth-child(2n+1){
+            background-color: bisque;
+        }
+
+        h3::before{
+            content: "Hello ";
+            color: red;
+        }
+
+        h3::after{
+            content: " done";
+            background-color: darkred;
+        }
     </style>
 </head>
 <body>
@@ -33,5 +59,26 @@
     <a href="https://www.google.com/">Google</a>
     <a href="https://imdb.com/">Never visited</a>
     <a href="https://www.programming-hero.com/">Programming</a>
+    <br>
+    <h3>middle sized header - 1</h3>
+    <h3>middle sized header - 2</h3>
+    <h3>middle sized header - 3</h3>
+    <h3>middle sized header - 4</h3>
+    <h3>middle sized header - 5</h3>
+    <h3>middle sized header - 6</h3>
+    <ul>
+        <li>Rahat</li>
+        <li>Aminul</li>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Pineapple</li>
+        <li>Orange</li>
+        <li>Rahat</li>
+        <li>Aminul</li>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>Pineapple</li>
+        <li>Orange</li>
+    </ul>
 </body>
 </html>
