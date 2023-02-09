@@ -1,2 +1,5 @@
-console.log("Hello DOM");
-console.log(document);
+const liCollection = document.getElementsByTagName("li");
+
+for (const li of liCollection) {
+  console.log(li.innerText);
+}
