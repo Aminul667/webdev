@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Summary</title>
+</head>
+<body>
+    <h1>Final DOM Event handler</h1>
+    <h3 id="default-text">This is a default text</h3>
+    <p id="input-text-display">Default input text</p>
+    <input type="text" id="input-field">
+    <button id="btn-update">Update</button>
+
+    <br>
+    <br>
+
+    <button onclick="changeText()">Handled event by onclick attribute</button>
+    <button id="add-listener">Handled event by addEventListener</button>
+
+    <script src="js/summary.js"></script>
+</body>
+</html>
