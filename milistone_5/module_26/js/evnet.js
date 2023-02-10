@@ -13,4 +13,15 @@ function makeBlue() {
 const makeBlueButton = document.getElementById("make-blue");
 makeBlueButton.onclick = makeBlue;
 
-console.log(makeBlueButton);
+// option 4
+function makeGreen() {
+  document.body.style.backgroundColor = "green";
+}
+
+const makeGreenButton = document.getElementById("make-green");
+makeGreenButton.addEventListener('click', makeGreen);
+
+// option 4 Final
+document.getElementById('make-goldenrod').addEventListener('click', function(){
+    document.body.style.backgroundColor = 'goldenrod';
+})
