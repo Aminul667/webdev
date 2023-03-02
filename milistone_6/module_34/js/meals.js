@@ -55,4 +55,5 @@ const displayMealDetails = meal => {
     console.log(meal);
 }
 
+// add show all
 loadMeals('fish');
