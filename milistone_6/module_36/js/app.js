@@ -35,13 +35,30 @@ const displayPhones = phones => {
         `;
 
         phoneContainer.appendChild(phoneDiv);
-    })
+    });
+
+    // stop loader
+    toggleSpinner(false);
+
 }
 
+// handel search button click
 document.getElementById('btn-search').addEventListener('click', function(){
+    // start loader
+    toggleSpinner(true);
     const searchField = document.getElementById('search-field');
     const searchText = searchField.value;
     loadPhone(searchText);
 })
+
+const toggleSpinner = isLoading => {
+    const loaderSection = document.getElementById('loader');
+    if(isLoading){
+        loaderSection.classList.remove('d-none');
+    }
+    else{
+        loaderSection.classList.add('d-none');
+    }
+}
 
 // loadPhone();
